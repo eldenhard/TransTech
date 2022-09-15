@@ -1,20 +1,27 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import MainPage from '../views/MainPage.vue'
+import Dislocation from '../views/Dislocation.vue'
+import Transp from '../views/Transp.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    name: 'home',
-    component: HomeView
+    name: 'MainPage',
+    component: MainPage
   },
   {
-    path: '/about',
-    name: 'about',
-    component: () => import('../views/AboutView.vue')
-  }
+    path: '/dislocation',
+    name: 'Dislocation',
+    component: Dislocation
+  },
+  {
+    path: '/transp',
+    name: 'Transp',
+    component:Transp
+     }
 ]
 
 const router = new VueRouter({

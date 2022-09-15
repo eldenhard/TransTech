@@ -1,19 +1,24 @@
 <template>
   <div class="home">
       <div class="mainpic">
+        <div class="center-phone">
         <h2 class="header-f">Транспортные технологии</h2>
         <h1 class="header-s" >Грузоперевозки по России</h1>
         
-        <b-container class="btn_group" style="position: relative; left: 35%; transform: translate(-40%, 0)" >
-        <b-row>
-          <b-col-md-6>
+   
+
+          <div class="btn-gr">
             <button class="request">Оставить заявку</button>
-          </b-col-md-6>
-          <b-col-md-6>
             <button class="contact">Контакты</button>
-          </b-col-md-6>
-      </b-row>
-    </b-container>
+          </div>
+
+            <div class="row phone-btn">
+              <div class="col-md-12">
+                <button class="request-phone">Оставить заявку</button>
+              </div>
+            </div>
+
+      </div>
       </div>
       <AboutCompany></AboutCompany>
       <WhatUs></WhatUs>
@@ -45,7 +50,8 @@ export default {
   background: url(../assets/630873e547610.jpg);
   height: 100vh;
   margin-top: -4%;
-
+  display: table;
+  width: 100%;
 }
 .header-f{
   text-align: center;
@@ -66,8 +72,11 @@ export default {
   letter-spacing: 3px;
   font-weight:900;
 }
-.btn_group{
-  padding-top: 8%;
+.btn-gr{
+  padding-top: 6%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 .request{
   background: #EB272B;
@@ -87,8 +96,6 @@ export default {
 }
 .request:hover{
   background: #96191b;
-  cursor: pointer;
-
 }
 .contact{
   background: rgb(243, 243, 243, 0.1);
@@ -97,18 +104,70 @@ export default {
   border: 3px solid white;
   font-family: 'Roboto', sans-serif;
   border-radius: 5px;
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 17px;
   padding: 5px 10px;
   width: 300px;
   height: 60px;
   font-weight: 600;
   letter-spacing: 1px;
-  margin-left: 5%;
+  margin-left: 1%;
   cursor: pointer;
 }
 .contact:hover{
   background: rgb(243, 243, 243, 0.3);
+}
+.phone-btn {
+  display: none !important;
+}
+@media screen and (max-width: 500px) {
+  .header-f {
+    font-size: 18px;
+    margin-top: -250px;
 
+  }
+  .header-s {
+    text-align: center;
+  padding-top: 2%;
+  color: rgb(255, 255, 255, 0.8);
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+  letter-spacing: 3px;
+  font-weight:900;
+  }
+  .request{
+display: none;
+}
+.contact{
+display: none;
+
+}
+.center-phone {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.phone-btn{
+  display: block !important;
+}
+.request-phone{
+  background: #EB272B;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  padding: 5px 10px;
+  width: 300px;
+  height: 60px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.request-phone:hover {
+  background: #96191b;
+}
 }
 </style>

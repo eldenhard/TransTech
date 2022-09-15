@@ -1,49 +1,10 @@
 <template>
     <div>
-    <div class="activities">
+    <div class="activities" id="activities">
         <h2 class="activities-text">Направления деятельности</h2>
         <h5 class="activities-text-sec" style="padding-top: 3%">Каждый день мы усердно работаем, чтобы сделать жизнь наших клиентов лучше</h5>
     </div>
-<!-- Gallery -->
-<!-- <div class="row" style="width: 90%; margin-left: 5%; margin-top: 3%;">
-  <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-    <img
-      src="@/assets/neft.png"
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt="Boat on Calm Water"
-    />
 
-    <img
-      src="@/assets/gas.jpg"
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt="Wintry Mountain Landscape"
-    />
-  </div>
-
-  <div class="col-lg-4 mb-4 mb-lg-0">
-    <img
-      src="@/assets/wood.jpg"
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt="Mountains in the Clouds"
-    />
-
-  </div>
- 
-  <div class="col-lg-4 mb-4 mb-lg-0">
-    <img
-      src="@/assets/i.jpg"
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt="Waves at Sea"
-    />
-
-    <img
-      src="@/assets/all.jpg"
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt="Yosemite National Park"
-
-    />
-  </div>
-</div> -->
 
 <section class="grid-container">
   <figure class="item c-span2" style="  grid-row: span 2;">
@@ -61,10 +22,7 @@
         <br><br>
         <span class="activities-decription">Железнодорожные перевозки леса — кругляка и пиломатериалов.</span>
       </figcaption>
-
     </figure>
-
-   
     <figure class="item" style="grid-row: span 2;">
       <img src="@/assets/truba.jpg" alt="" class="activities-gallery" >
       <figcaption>
@@ -72,9 +30,7 @@
         <br> <br>
         <span class="activities-decription">Перевозка металлолома, листов, металлопроката и металлопродукции.</span>
       </figcaption>
-
     </figure>
-
     <figure class="item">
       <img src="@/assets/gas.jpg" alt="" class="activities-gallery">
       <figcaption>
@@ -82,7 +38,6 @@
         <br><br>
         <span class="activities-decription">Применяются специализированные железнодорожные цистерны для перевозки сжиженных газов объемом 98 м3.</span>
       </figcaption>
-
     </figure>
     <figure class="item">
       <img src="@/assets/i.jpg" alt="" class="activities-gallery">
@@ -90,8 +45,6 @@
         <span class="activities-main-decription">Сыпучие грузы</span> <br> <br>
         <span class="activities-decription">Предоставляем полувагоны для перевозки сыпучих грузов по территории России, Украины, Белоруссии, СНГ и Балтии.</span>
       </figcaption>
-
-
     </figure>
     <figure class="item">
       <img src="@/assets/all.jpg" alt="" class="activities-gallery" >
@@ -105,7 +58,87 @@
 
   </section>
 
+
+  <!-- Mob v -->
+  <div class="row sec-phone">
+    <div class="col-md-12">
+      <figure>
+      <img src="@/assets/neft.png" alt="" width="100%" height="200px">
+      <figcaption>
+        <!-- <span class="activities-main-decription">Нефтепродукты</span>  -->
+        <br><br>
+        <span class="activities-decription">Предоставляем цистерны для перевозки грузов по территории России, Украины, Белоруссии, стран СНГ и Балтии.</span>
+      </figcaption>
+    </figure>
+    </div>
+  </div>
+
+<br>
+  <div class="row sec-phone">
+    <div class="col-md-12">
+      <figure>
+      <img src="@/assets/forest.jpg" alt="" width="100%" height="200px">
+      <figcaption>
+        <!-- <span class="activities-main-decription">Лес</span> -->
+        <br><br>
+        <span class="activities-decription">Железнодорожные перевозки леса — кругляка и пиломатериалов.</span>
+      </figcaption>
+    </figure>
+    </div>
+  </div>
+  <br>
+  <div class="row sec-phone">
+    <div class="col-md-12">
+      <figure>
+      <img src="@/assets/truba.jpg" alt="" width="100%" height="200px">
+      <figcaption>
+        <!-- <span class="activities-main-decription">Металл</span> -->
+        <br> <br>
+        <span class="activities-decription">Перевозка металлолома, листов, металлопроката и металлопродукции.</span>
+      </figcaption>
+    </figure>
+    </div>
+  </div>
+  <br>
+  <div class="row sec-phone">
+    <div class="col-md-12">
+      <figure>
+        <img src="@/assets/gas.jpg" alt="" width="100%" height="200px">
+      <figcaption>
+        <!-- <span class="activities-main-decription">Газ</span> -->
+        <br><br>
+        <span class="activities-decription">Применяются специализированные железнодорожные цистерны для перевозки сжиженных газов объемом 98 м3.</span>
+      </figcaption>
+    </figure> 
+     </div>
+  </div>
+  <br>
+  <div class="row sec-phone">
+    <div class="col-md-12">
+      <figure>
+      <img src="@/assets/i.jpg" alt="" width="100%" height="200px">
+      <figcaption>
+        <!-- <span class="activities-main-decription">Сыпучие грузы</span> <br> <br> -->
+        <span class="activities-decription">Предоставляем полувагоны для перевозки сыпучих грузов по территории России, Украины, Белоруссии, СНГ и Балтии.</span>
+      </figcaption>
+    </figure>    </div>
+  </div>
+  <br>
+  <div class="row sec-phone">
+    <div class="col-md-12">
+      <figure>
+      <img src="@/assets/all.jpg" alt="" width="100%" height="200px">
+      <figcaption>
+        <!-- <span class="activities-main-decription">Прочие грузы</span> -->
+        <br>
+        <span class="activities-decription">Перевозка генеральных грузов всеми видами вагонов</span>
+      </figcaption>
+    </figure>
+    </div>
+  </div>
+
 </div>
+
 </template>
 
 
@@ -116,6 +149,9 @@ export default{
 </script>
 
 <style>
+.sec-phone {
+  display: none !important;
+}
 .activities-decription  {
   padding-top: 2%;
   float: left;
@@ -148,7 +184,9 @@ figcaption{
 .activities-gallery{
   filter: brightness(50%);
 }
-
+.activities-gallery:hover{
+  filter: brightness(60%);
+}
 .grid-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -207,5 +245,32 @@ figcaption{
     text-align: center;
     font-family: 'Roboto', Arial, sans-serif;
     font-size: 32px;
+}
+
+@media screen and (max-width: 500px) {
+.grid-container{
+    display: none;
+  }
+.sec-phone{
+    max-width: 100%;
+    display: block !important;
+  }
+.sec-phone img {
+margin-left: 3%;
+  }
+  .activities-decription  {
+  padding-top: 2%;
+  text-align: center;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+.sec-phone img  {
+  filter: brightness(40%);
+}
+figcaption{
+  background: transparent;
+}
 }
 </style>

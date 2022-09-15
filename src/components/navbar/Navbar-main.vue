@@ -1,24 +1,25 @@
 <template>
 <div>
-  <b-navbar toggleable="lg" type="dark" style="background: black;">
-    <b-navbar-brand href="#">
+  <b-navbar toggleable="lg" type="dark" style="background: black;" >
+    <b-navbar-brand href="/">
       <img src="@/assets/photo.png" alt="" class="logo">
     </b-navbar-brand>
 
-    <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+    <b-navbar-toggle target="nav-collapse" class="toggle"></b-navbar-toggle>
 
     <b-collapse id="nav-collapse" is-nav>
      
-      <!-- Right aligned nav items -->
       <b-navbar-nav class="ml-auto">
        
 
-        <b-navbar-nav>
-        <b-nav-item href="#">О нас</b-nav-item>
-        <b-nav-item href="#">Услуги</b-nav-item>
-        <b-nav-item href="#">Новости</b-nav-item>
-        <b-nav-item href="#">Карьера</b-nav-item>
-        <b-nav-item href="#">Контакты</b-nav-item>
+        <b-navbar-nav class="item-nav">
+        <b-nav-item href="#aboutCompany" @click="Scroll()">О нас</b-nav-item>
+        <b-nav-item href="#activities">Услуги</b-nav-item>
+        <b-nav-item href="/dislocation">Дислокация
+        </b-nav-item>
+        <b-nav-item href="/transp">Перевозка
+        </b-nav-item>
+        <b-nav-item href="#contact">Контакты</b-nav-item>
 
       </b-navbar-nav>
 
@@ -31,7 +32,23 @@
 
 <script>
 export default{
-    name: 'Navbar'
+    name: 'Navbar',
+    methods: {
+      Scroll : function(){
+      const smoothLinks = document.querySelectorAll('a[href^="#"]');
+        for (let smoothLink of smoothLinks) {
+      smoothLink.addEventListener('click', function (e) {
+          e.preventDefault();
+          const id = smoothLink.getAttribute('href');
+
+          document.querySelector(id).scrollIntoView({
+              behavior: 'smooth',
+              block: 'start'
+          });
+      });
+    }
+    }
+  }
 }
 </script>
 
@@ -39,5 +56,18 @@ export default{
 <style>
 .logo{
   width: 50%
+}
+@media screen and (max-width: 500px) {
+.logo{
+  width: 60%;
+  margin-left: 25%;
+}
+
+.toggle{
+margin-left: 42%;
+}
+.item-nav {
+  text-align: center;
+}
 }
 </style>

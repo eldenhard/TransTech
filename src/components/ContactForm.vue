@@ -1,10 +1,10 @@
 <template>
     <div>
-        <div class="row">
-            <div class="col-md-6" style="background: #171717;">
+        <div class="row mr-0" style="background: #171717" id="contact">
+            <div class="col-md-6 mr-0">
                 <img src="@/assets/map.jpg" alt="" style="width:100%;">
             </div>
-            <div class="col-md-6 right-contact" >
+            <div class="col-md-6 mr-0 right-contact" >
                     <h2 style="padding-left: 7%;"><span style="border-bottom: 3px solid #EB272B;">Контакты</span></h2>
                     <h4 style="padding-left: 7%; padding-top: 2%;"> Тел. 8 (495) 363 1520,</h4>
                     <h4 style="padding-left: 7%; padding-top: 2%;">E-mail: <span style="color: #ff5154;">info@tehtrans.com</span></h4>
