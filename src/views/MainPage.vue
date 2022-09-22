@@ -49,7 +49,7 @@ export default {
 .mainpic{
   background: url(../assets/630873e547610.jpg);
   height: 100vh;
-  margin-top: -4%;
+  /* margin-top: -4%; */
   display: table;
   width: 100%;
 }
