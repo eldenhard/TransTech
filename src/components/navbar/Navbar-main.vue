@@ -15,11 +15,11 @@
 
     <b-collapse id="navbar-toggle-collapse" is-nav>
       <b-navbar-nav class="ml-auto">
-        <b-nav-item href="#">О нас</b-nav-item>
-        <b-nav-item href="#">Услуги</b-nav-item>
+        <b-nav-item href="#aboutCompany">О нас</b-nav-item>
+        <b-nav-item href="#activities">Услуги</b-nav-item>
         <b-nav-item href="#" disabled>Управление</b-nav-item>
         <b-nav-item href="#" disabled>Перевозка</b-nav-item>
-        <b-nav-item href="#">Контакты</b-nav-item>
+        <b-nav-item href="#contact">Контакты</b-nav-item>
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>
