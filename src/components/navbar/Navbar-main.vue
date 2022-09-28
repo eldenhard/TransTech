@@ -1,56 +1,32 @@
 <template>
 <div>
-  <b-navbar toggleable="lg" type="dark" style="background: black;" >
-    <b-navbar-brand href="/">
-      <img src="@/assets/photo.png" alt="" class="logo">
+  <b-navbar toggleable type="dark" variant="dark" style="background: black !important;" fixed="top">
+    <b-navbar-brand href="#">
+        <img src="@/assets/photo.png" class="logo">
+   
     </b-navbar-brand>
 
-    <b-navbar-toggle target="nav-collapse" class="toggle"></b-navbar-toggle>
+    <b-navbar-toggle target="navbar-toggle-collapse">
+      <template #default="{ expanded }">
+        <b-icon v-if="expanded" icon="chevron-bar-up"></b-icon>
+        <b-icon v-else icon="chevron-bar-down"></b-icon>
+      </template>
+    </b-navbar-toggle>
 
-    <b-collapse id="nav-collapse" is-nav>
-     
+    <b-collapse id="navbar-toggle-collapse" is-nav>
       <b-navbar-nav class="ml-auto">
-       
-
-        <b-navbar-nav class="item-nav">
-        <b-nav-item href="#aboutCompany" @click="Scroll()">О нас</b-nav-item>
-        <b-nav-item href="#activities">Услуги</b-nav-item>
-        <b-nav-item href="/dislocation">Дислокация
-        </b-nav-item>
-        <b-nav-item href="/transp">Перевозка
-        </b-nav-item>
-        <b-nav-item href="#contact">Контакты</b-nav-item>
-
-      </b-navbar-nav>
-
-        
+        <b-nav-item href="#">О нас</b-nav-item>
+        <b-nav-item href="#">Услуги</b-nav-item>
+        <b-nav-item href="#" disabled>Управление</b-nav-item>
+        <b-nav-item href="#" disabled>Перевозка</b-nav-item>
+        <b-nav-item href="#">Контакты</b-nav-item>
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>
 </div>
 </template>
 
-<script>
-export default{
-    name: 'Navbar',
-    methods: {
-      Scroll : function(){
-      const smoothLinks = document.querySelectorAll('a[href^="#"]');
-        for (let smoothLink of smoothLinks) {
-      smoothLink.addEventListener('click', function (e) {
-          e.preventDefault();
-          const id = smoothLink.getAttribute('href');
 
-          document.querySelector(id).scrollIntoView({
-              behavior: 'smooth',
-              block: 'start'
-          });
-      });
-    }
-    }
-  }
-}
-</script>
 
 
 <style>
