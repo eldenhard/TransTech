@@ -11,10 +11,11 @@
 
 
 <script>
-import Navbar from './components/navbar/Navbar-main.vue'
+import Navbar from './components/navbar/Navbar-main.vue';
+
   export default{
     name: 'App',
-    components: {Navbar}
+    components: { Navbar }
   }
 </script>
 

@@ -1,5 +1,4 @@
 <template>
-    <div>
         <footer>
             <div class="parent">
             <img src="@/assets/photo.png" alt="" class="footer-logo">
@@ -7,7 +6,7 @@
             <p class="contact-phone">+7 (495) 363 1520</p>
         </div>
         </footer>
-    </div>
+
 </template>
 
 <script>
@@ -23,8 +22,8 @@ footer{
     background: black;
 } 
 .footer-logo {
-width: 9%;
-height: 55%;
+width: 12%;
+height: 45%;
 padding-left: 1%;
 }
 .parent{
@@ -53,7 +52,7 @@ padding-left: 1%;
     display: none;
 }
 footer{
-    height: 100%;
+    height: 40px;
 }
 }
 </style>

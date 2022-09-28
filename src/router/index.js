@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import MainPage from '../views/MainPage.vue'
 import Dislocation from '../views/Dislocation.vue'
 import Transp from '../views/Transp.vue'
+import Team from '../views/Team.vue'
 
 Vue.use(VueRouter)
 
@@ -21,6 +22,11 @@ const routes = [
     path: '/transp',
     name: 'Transp',
     component:Transp
+  },
+  {
+    path: '/team',
+    name: 'team',
+    component:Team
      }
 ]
 

@@ -4,29 +4,25 @@
             <span style="border-bottom: 3px solid #EB272B" >Почему мы?</span>
         </h2>
             <div class="row mr-0">
-                <div class="col-md-6" style="padding-top:5%">
-                    <p class="text-min"><span style="border-bottom: 3px solid #EB272B; color: white;">1.</span>Расскажите, в чем приеимущество или отличие ваших услуги от услуг в других компаниях.</p>
-                    <p class="text-min"><span style="border-bottom: 3px solid #EB272B">2.</span> Расскажите, чему вы уделяете больше всего внимания. Например, индивидуальный подход к каждому клиенту — ваш козырь.</p> <br>
-                    <p class="text-min"><span style="border-bottom: 3px solid #EB272B">3.</span> Расскажите, в чем преимущество работы именно с вашей командой</p>
+                <div class="col-md-12" style="padding-top:2%; width: 95% !important; position: relative; left: 50%; transform: translate(-50%,0);">
+                    <p class="text-min"><span style="border-bottom: 3px solid #EB272B; color: white;">1. </span>
+                        ТТ предоставляет полный комплекс услуг по транспортировке широкой номенклатуры грузов.
+                        Качественную и эффективную работу компании обеспечивает штат высококвалифицированных работников,
+                        имеющих за своими плечами огромный опыт нахождения оптимальных и эффективных методов решения транспортно-логистических задач в этом бизнесе.
+                    </p>
+                    <p class="text-min" style="padding-bottom: 10%;"><span style="border-bottom: 3px solid #EB272B; " >2. </span>За короткий срок компания сформировала грузовую базу, достигнув среднемесячного объёма перевозок более 400 тысяч тонн.
+                         В настоящее время компания продолжает увеличивать своё присутствие на транспортном рынке,
+                        как в сегменте перевозок нефтеналивных, так и универсальных грузов.</p> <br>
                 </div>
-            <div class="col-md-6 whatus__pic" style="padding-top:2%">
-                <img src="@/assets/wagon.png" alt="" height="30%">
-            </div>
-            
+
 
         </div>
     </div>
 </template>
 
 
-<script>
-export default{
-name: 'WhatUs'
-}
-</script>
 <style>
 .whatus {
-    height: 100vh;
     background: #1A1A1A;
 }
 .text{
@@ -35,17 +31,21 @@ name: 'WhatUs'
     font-weight: 600;
     line-height: 52px;
     color: white;
-    padding-top: 12%;
+    padding-top: 10%;
     padding-left: 10%;
 } 
 .text-min{
     color: white;
-    padding-left: 25%;
     font-size: 20px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    width: 80%;
 }
 @media screen and (max-width: 500px) {
 .whatus{
-    height: 90vh;
+    height: 100%;
+    display: block;
 }
 .whatus__main-des {
     text-align: center;
