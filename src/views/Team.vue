@@ -8,7 +8,7 @@
 
     <b-card no-body class="mb-1">
       <b-card-header header-tag="header" class="p-1" role="tab">
-        <b-button block v-b-toggle.accordion-1 variant="dark" class="description">Генеральный директор</b-button>
+        <b-button block v-b-toggle.accordion-1 variant="dark" class="description" style="width: 100% !important;">Генеральный директор</b-button>
       </b-card-header>
       <b-collapse id="accordion-1" visible accordion="my-accordion" role="tabpanel">
         <b-card-body>
@@ -40,7 +40,7 @@
 
     <b-card no-body class="mb-1">
       <b-card-header header-tag="header" class="p-1" role="tab">
-        <b-button block v-b-toggle.accordion-2 variant="dark" class="description">Заместитель Генерального директора по безопасности</b-button>
+        <b-button block v-b-toggle.accordion-2 variant="dark" class="description"  style="width: 100% !important;">Заместитель Генерального директора по безопасности</b-button>
       </b-card-header>
       <b-collapse id="accordion-2" accordion="my-accordion" role="tabpanel">
         <b-card-body>
@@ -72,7 +72,7 @@
 
     <b-card no-body class="mb-1">
       <b-card-header header-tag="header" class="p-1" role="tab">
-        <b-button block v-b-toggle.accordion-3 variant="dark" class="description">Главный бухгалтер
+        <b-button block v-b-toggle.accordion-3 variant="dark" class="description"  style="width: 100% !important;">Главный бухгалтер
 </b-button>
       </b-card-header>
       <b-collapse id="accordion-3" accordion="my-accordion" role="tabpanel">
@@ -105,7 +105,7 @@
 
     <b-card no-body class="mb-1">
       <b-card-header header-tag="header" class="p-1" role="tab">
-        <b-button block v-b-toggle.accordion-4 variant="dark" class="description">Заместитель генерального директора по техническому развитию</b-button>
+        <b-button block v-b-toggle.accordion-4 variant="dark" class="description"  style="width: 100% !important;">Заместитель генерального директора по техническому развитию</b-button>
       </b-card-header>
       <b-collapse id="accordion-4" accordion="my-accordion" role="tabpanel">
         <b-card-body>
@@ -142,7 +142,7 @@
 
     <b-card no-body class="mb-1">
       <b-card-header header-tag="header" class="p-1" role="tab">
-        <b-button block v-b-toggle.accordion-5 variant="dark" class="description">Коммерческий директор по работе с полувагонами</b-button>
+        <b-button block v-b-toggle.accordion-5 variant="dark" class="description"  style="width: 100% !important;">Коммерческий директор по работе с полувагонами</b-button>
       </b-card-header>
       <b-collapse id="accordion-5" accordion="my-accordion" role="tabpanel">
         <b-card-body>
@@ -177,7 +177,7 @@
 
     <b-card no-body class="mb-1">
       <b-card-header header-tag="header" class="p-1" role="tab">
-        <b-button block v-b-toggle.accordion-6 variant="dark" class="description">Директор департамента организации перевозок</b-button>
+        <b-button block v-b-toggle.accordion-6 variant="dark" class="description"  style="width: 100% !important;">Директор департамента организации перевозок</b-button>
       </b-card-header>
       <b-collapse id="accordion-6" accordion="my-accordion" role="tabpanel">
         <b-card-body>
@@ -211,7 +211,7 @@
 
     <b-card no-body class="mb-1">
       <b-card-header header-tag="header" class="p-1" role="tab">
-        <b-button block v-b-toggle.accordion-7 variant="dark" class="description">Директор департамента логистики</b-button>
+        <b-button block v-b-toggle.accordion-7 variant="dark" class="description"  style="width: 100% !important;">Директор департамента логистики</b-button>
       </b-card-header>
       <b-collapse id="accordion-7" accordion="my-accordion" role="tabpanel">
         <b-card-body>
@@ -258,15 +258,13 @@
 
 <script>
 import Footer from '@/components/Footer.vue';
-import Footer from '@/components/Footer.vue';
-import Footer from '@/components/Footer.vue';
 export default {
     data() {
         return {
             gendir: "Генеральный директор"
         };
     },
-    components: { Footer, Footer, Footer }
+    components: { Footer}
 }  
 </script>
 
