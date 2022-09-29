@@ -4,13 +4,13 @@
             <span style="border-bottom: 3px solid #EB272B" >Почему мы?</span>
         </h2>
             <div class="row mr-0">
-                <div class="col-md-12" style="padding-top:2%; width: 95% !important; position: relative; left: 50%; transform: translate(-50%,0);">
-                    <p class="text-min"><span style="border-bottom: 3px solid #EB272B; color: white;">1. </span>
+                <div class="col-md-12" style="padding-top:2%; width: 70% !important; position: relative; left: 50%; transform: translate(-50%,0);">
+                    <p class="text-min" >
                         ТТ предоставляет полный комплекс услуг по транспортировке широкой номенклатуры грузов.
                         Качественную и эффективную работу компании обеспечивает штат высококвалифицированных работников,
                         имеющих за своими плечами огромный опыт нахождения оптимальных и эффективных методов решения транспортно-логистических задач в этом бизнесе.
                     </p>
-                    <p class="text-min" style="padding-bottom: 10%;"><span style="border-bottom: 3px solid #EB272B; " >2. </span>За короткий срок компания сформировала грузовую базу, достигнув среднемесячного объёма перевозок более 400 тысяч тонн.
+                    <p class="text-min" style="padding-bottom: 10%;">За короткий срок компания сформировала грузовую базу, достигнув<span style="border-bottom: 2px solid #EB272B; font-weight: bold;"> среднемесячного объёма перевозок более 400 тысяч тонн.</span>
                          В настоящее время компания продолжает увеличивать своё присутствие на транспортном рынке,
                         как в сегменте перевозок нефтеналивных, так и универсальных грузов.</p> <br>
                 </div>
@@ -36,11 +36,13 @@
 } 
 .text-min{
     color: white;
-    font-size: 20px;
+    font-size: 25px;
     position: relative;
     left: 50%;
     transform: translate(-50%,0);
-    width: 80%;
+    width: 65%;
+    text-align: justify;
+    
 }
 @media screen and (max-width: 500px) {
 .whatus{

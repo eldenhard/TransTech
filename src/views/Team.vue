@@ -14,7 +14,7 @@
         <b-card-body>
           <b-card-text>
             <div>
-              <b-card no-body class="overflow-hidden" style="max-width: 80%; position: relative; left: 50%; transform: translate(-50%, 0);">
+              <b-card no-body class="overflow-hidden" style="max-width: 80%; position: relative; left: 50%; transform: translate(-50%, 0); border: none !important;">
                 <b-row no-gutters>
                   <b-col md="6">
                     <img src="../assets/Tert.png"  class="rounded-0"  style="max-width: 100%; max-width: 350px; height: 100%; position: relative; left: 50%; transform: translate(-50%, 0); ">
@@ -46,7 +46,7 @@
         <b-card-body>
           <b-card-text>
             <div>
-              <b-card no-body class="overflow-hidden" style="max-width: 80%; position: relative; left: 50%; transform: translate(-50%, 0);">
+              <b-card no-body class="overflow-hidden" style="max-width: 80%; position: relative; left: 50%; transform: translate(-50%, 0); border: none !important;">
                 <b-row no-gutters>
                   <b-col md="6" >
                     <img src="../assets/Smirnov.jpg"  class="rounded-0"  style="max-width: 100%; max-width: 350px; height: 100%; height: 100%; position: relative; left: 50%; transform: translate(-50%, 0);">
@@ -79,7 +79,7 @@
         <b-card-body>
           <b-card-text>
             <div>
-              <b-card no-body class="overflow-hidden" style="max-width: 80%; position: relative; left: 50%; transform: translate(-50%, 0);">
+              <b-card no-body class="overflow-hidden" style="max-width: 80%; position: relative; left: 50%; transform: translate(-50%, 0); border: none !important;">
               <b-row no-gutters>
                 <b-col md="6" style="display: block">
                   <img src="../assets/Titova.jpg"  class="rounded-0"  style="max-width: 100%; width: 350px; height: 100%; height: 100%; object-fit: cover; position: relative; left: 50%; transform: translate(-50%, 0);">
@@ -111,7 +111,7 @@
         <b-card-body>
           <b-card-text>
           <div>
-            <b-card no-body class="overflow-hidden" style="max-width: 80%; position: relative; left: 50%; transform: translate(-50%, 0);">
+            <b-card no-body class="overflow-hidden" style="max-width: 80%; position: relative; left: 50%; transform: translate(-50%, 0); border: none !important;">
               <b-row no-gutters>
                 <b-col md="6"  style="display: block">
                   <img src="../assets/Sakeev.jpg"  class="rounded-0"  style="max-width: 100%; width: 350px; height: 100%; height: 100%; object-fit: cover; position: relative; left: 50%; transform: translate(-50%, 0);">
@@ -148,7 +148,7 @@
         <b-card-body>
           <b-card-text>
             <div>
-              <b-card no-body class="overflow-hidden" style="max-width: 80%; position: relative; left: 50%; transform: translate(-50%, 0);">
+              <b-card no-body class="overflow-hidden" style="max-width: 80%; position: relative; left: 50%; transform: translate(-50%, 0); border: none !important;">
               <b-row no-gutters>
                 <b-col md="6" style="display: block;">
                   <img src="../assets/Voluisiy.jpg"  class="rounded-0"  style="max-width: 100%; width: 370px; height: 100%; object-fit: cover; position: relative; left: 50%; transform: translate(-50%, 0);">
@@ -183,7 +183,7 @@
         <b-card-body>
           <b-card-text>
             <div>
-              <b-card no-body class="overflow-hidden" style="max-width: 80%; position: relative; left: 50%; transform: translate(-50%, 0);">
+              <b-card no-body class="overflow-hidden" style="max-width: 80%; position: relative; left: 50%; transform: translate(-50%, 0); border: none !important;">
                   <b-row no-gutters>
                     <b-col md="6">
                       <img src="../assets/Sharonov.jpg" class="rounded-0"  style="max-width: 100%; width: 350px; height: 100%; position: relative; left: 50%; transform: translate(-50%, 0);">
@@ -217,7 +217,7 @@
         <b-card-body>
           <b-card-text>
             <div>
-              <b-card no-body class="overflow-hidden" style="max-width: 80%; position: relative; left: 50%; transform: translate(-50%, 0);">
+              <b-card no-body class="overflow-hidden" style="max-width: 80%; position: relative; left: 50%; transform: translate(-50%, 0); border: none !important;">
                   <b-row no-gutters>
                     <b-col md="6">
                       <img src="../assets/Klushov.jpg" class="rounded-0"  style="max-width: 100%; max-width: 350px; height: 50%; position: relative; left: 50%; transform: translate(-50%, 0);">

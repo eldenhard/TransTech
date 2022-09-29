@@ -182,7 +182,7 @@ figcaption{
   background: rgb(0, 0, 0, 0.1);
 }
 .activities-gallery{
-  filter: brightness(50%);
+  filter: brightness(70%);
 }
 .activities-gallery:hover{
   filter: brightness(60%);

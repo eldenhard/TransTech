@@ -8,7 +8,8 @@
    
 
           <div class="btn-gr">
-            <button class="request">Оставить заявку</button>
+            <form action="/order_create" target="_blank">
+            <button class="request" to="/order_create" exact >Оставить заявку</button></form>
             <button class="contact">Контакты</button>
           </div>
 
