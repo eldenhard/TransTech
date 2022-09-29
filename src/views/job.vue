@@ -46,10 +46,16 @@
 </div>
 
 <br><br><br>
+<Footer></Footer>
     </div>
 </template>
 
-
+<script>
+import Footer from '@/components/Footer.vue';
+    export default {
+        components: { Footer }
+    }  
+    </script>
 <style>
  .about h3 {
 color: #EB272B;
