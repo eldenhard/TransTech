@@ -23,7 +23,7 @@
     <br>
     <div class="row" >
         <div class="col-md-4 mr-0">
-            <img src="../assets/neft1.jpg" alt="" style="width: 250px !important; height: 200px;" class="product-img">
+            <img src="../assets/neft1.jpg" alt="" style="width: 250px; height: 200px;" class="product-img">
         </div>
         <div class="col-md-8" >
              <div class="grey">
@@ -37,7 +37,7 @@
 
     <div class="row" style="margin-top: 2px">
         <div class="col-md-4 mr-0">
-            <img src="../assets/gaz1.webp" alt="" style="width: 250px !important; height: 200px;"  class="product-img">
+            <img src="../assets/gaz1.webp" alt="" style="width: 250px; height: 200px;"  class="product-img">
         </div>
         <div class="col-md-8">
              <div class="grey">
@@ -52,7 +52,7 @@
    
     <div class="row" style="margin-top: 2px">
         <div class="col-md-4 mr-0">
-            <img src="../assets/sip.jpg" alt="" style="width: 250px !important; height: 200px;"  class="product-img">
+            <img src="../assets/sip.jpg" alt="" style="width: 250px; height: 200px;"  class="product-img">
         </div>
         <div class="col-md-8" >
              <div class="grey">
@@ -119,6 +119,7 @@ padding-top: 3%;
     position: relative;
     left: 50%;
     transform: translate(-50%,0);
+    width: 330px !important;
 }
 .grey, .products-pr {
     height: 320px !important;
