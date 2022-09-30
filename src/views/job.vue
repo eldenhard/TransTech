@@ -9,7 +9,7 @@
         </div>
         <br> 
 
-      <h3 style="font-size: 33px;">Карьера</h3>
+      <h3 style="font-size: 33px;" class="about-page">Карьера</h3>
       <div class="container">
         <p class="first-job">Сотрудники – одно из главных конкурентных преимуществ ТТ и основа устойчивого развития компании.
              Мы заинтересованы в развитии кадрового потенциала и привлечении высококвалифицированного персонала.</p> 
@@ -28,16 +28,16 @@
 <div class="container">
     <div class="row" style="margin-left: 1%">
         <div class="col-md-4">
-            <img src="../assets/job-1.jpg" alt="" class="service">
+            <img src="../assets/job-1.jpg" alt="" class="service product-img">
             <p   style="font-size: 17px; font-weight: 500; text-align: center; padding-right: 20px;">Стабильная компания</p>
         </div>
         <div class="col-md-4">
-            <img src="../assets/job-2.jpg" alt="" class="service">
+            <img src="../assets/job-2.jpg" alt="" class="service product-img">
             <p  style="font-size: 17px; font-weight: 500; text-align: center; padding-right: 20px;">Карьерный рост</p>
 
         </div>
         <div class="col-md-4">
-            <img src="../assets/job-3.jpg" alt="" class="service">
+            <img src="../assets/job-3.jpg" alt="" class="service product-img">
             <p  style="font-size: 17px; font-weight: 500; text-align: center; padding-right: 20px;">Инновационные технологии</p>
 
         </div>

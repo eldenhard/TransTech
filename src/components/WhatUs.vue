@@ -3,11 +3,11 @@
         <h2 class="text whatus__main-des">
             <span style="border-bottom: 3px solid #EB272B" >Почему мы?</span>
         </h2>
-            <div class="row mr-0">
-                <div class="col-md-12" style="padding-top:2%; width: 70% !important; position: relative; left: 50%; transform: translate(-50%,0);">
+            <div class="row mr-0 telephone">
+                <div class="col-md-12 telephone " style="padding-top:2%; width: 70% !important; position: relative; left: 50%; transform: translate(-50%,0);">
                     <p class="text-min" >
                         ТТ предоставляет полный комплекс услуг по транспортировке широкой номенклатуры грузов.
-                        Качественную и эффективную работу компании обеспечивает штат высококвалифицированных работников,
+                        Качественную и эффективную работу компании обеспечивает штат профессионалов,
                         имеющих за своими плечами огромный опыт нахождения оптимальных и эффективных методов решения транспортно-логистических задач в этом бизнесе.
                     </p>
                     <p class="text-min" style="padding-bottom: 10%;">За короткий срок компания сформировала грузовую базу, достигнув<span style="border-bottom: 2px solid #EB272B; font-weight: bold;"> среднемесячного объёма перевозок более 400 тысяч тонн.</span>
@@ -68,8 +68,16 @@
     padding-top: 5%;
 }
 .text-min {
-padding-left: 4%;
-text-align: justify;
+text-align: left;
+ width: 100% !important;
+ margin: 0 !important;
+    padding: 0 !important;
+}
+
+.telephone {
+    width: 100% !important;
+    margin: 0;
+    padding: 0;
 }
 }
 </style>

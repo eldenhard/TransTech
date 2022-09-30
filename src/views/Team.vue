@@ -250,7 +250,7 @@
 <br><br><br><br><br>
 
   </div>
-<Footer style="margin-top: 20% !important"></Footer>
+<Footer style="margin-top: 30% !important"></Footer>
 </div>
 
 </div>

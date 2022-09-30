@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1 style="margin-top: 15%" align="center">Страница находится в разработке</h1>
+        <h1 style="margin-top: 20%" align="center">Страница находится в разработке</h1>
         <p align="center">Приномим свои извинения, с уважением, ООО "Транспортные технологии"</p>
         <br><br><br><br>        <br><br><br><br>
         <br><br><br><br>
