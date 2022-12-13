@@ -19,7 +19,7 @@ export default{
 <style>
 footer{
     width: 100%;
-    background: black;
+    background: #565656;
 } 
 .footer-logo {
 width: 12%;

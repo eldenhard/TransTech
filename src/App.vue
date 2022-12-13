@@ -8,7 +8,11 @@
     <router-view/>
   </div>
 </template>
-
+<style>
+body{
+  background: white !important;
+}
+</style>
 
 <script>
 import Navbar from './components/navbar/Navbar-main.vue';

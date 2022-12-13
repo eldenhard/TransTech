@@ -23,7 +23,13 @@
 
 <style>
 .whatus {
-    background: #1A1A1A;
+    /* background: #1A1A1A; */
+    background: url(../assets/LOFO.jpg);
+
+height: 100vh;
+/* margin-top: -4%; */
+display: table;
+width: 100%;
 }
 .text{
     font-family: 'Roboto', Arial, sans-serif;
