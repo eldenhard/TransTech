@@ -3,13 +3,15 @@
 
     
         <div class="image">
-            <img src="../assets/pict.jpg" style="    filter: brightness(60%); position: relative;width: 100%;">
+            <!-- <img src="../assets/pict.jpg" style="    filter: brightness(60%); position: relative;width: 100%;"> -->
+            <img src="../assets/main-pre.jpg" style="    filter: brightness(60%); position: relative;width: 100%; height: 300px">
+
             <h2 style=" position: absolute;top: 100px;left: 0;width: 100%;color: rgb(214, 214, 214);font-size: 50px !important;padding: 10px;text-align: right;padding-right: 10%;">Железнодорожные перевозки</h2>
             <p style=" position: absolute;top: 150px;left: 0;width: 100%;color: rgb(214, 214, 214);font-size: 17px !important;padding: 10px;text-align: right;padding-right: 10%;">В любую точку России</p>
         </div>
         <br> 
 
-      <h3 style="font-size: 33px;">Карьера</h3>
+      <h3 style="font-size: 33px;" class="about-page">Карьера</h3>
       <div class="container">
         <p class="first-job">Сотрудники – одно из главных конкурентных преимуществ ТТ и основа устойчивого развития компании.
              Мы заинтересованы в развитии кадрового потенциала и привлечении высококвалифицированного персонала.</p> 
@@ -28,16 +30,16 @@
 <div class="container">
     <div class="row" style="margin-left: 1%">
         <div class="col-md-4">
-            <img src="../assets/job-1.jpg" alt="" class="service">
+            <img src="../assets/job-1.jpg" alt="" class="service product-img">
             <p   style="font-size: 17px; font-weight: 500; text-align: center; padding-right: 20px;">Стабильная компания</p>
         </div>
         <div class="col-md-4">
-            <img src="../assets/job-2.jpg" alt="" class="service">
+            <img src="../assets/job-2.jpg" alt="" class="service product-img">
             <p  style="font-size: 17px; font-weight: 500; text-align: center; padding-right: 20px;">Карьерный рост</p>
 
         </div>
         <div class="col-md-4">
-            <img src="../assets/job-3.jpg" alt="" class="service">
+            <img src="../assets/job-3.jpg" alt="" class="service product-img">
             <p  style="font-size: 17px; font-weight: 500; text-align: center; padding-right: 20px;">Инновационные технологии</p>
 
         </div>
@@ -46,10 +48,16 @@
 </div>
 
 <br><br><br>
+<Footer></Footer>
     </div>
 </template>
 
-
+<script>
+import Footer from '@/components/Footer.vue';
+    export default {
+        components: { Footer }
+    }  
+    </script>
 <style>
  .about h3 {
 color: #EB272B;

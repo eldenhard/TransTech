@@ -250,7 +250,7 @@
 <br><br><br><br><br>
 
   </div>
-<Footer style="margin-top: 20% !important"></Footer>
+<Footer style="margin-top: 30% !important"></Footer>
 </div>
 
 </div>
@@ -258,12 +258,10 @@
 
 <script>
 import Footer from '@/components/Footer.vue';
+
 export default {
-    data() {
-        return {
-            gendir: "Генеральный директор"
-        };
-    },
+   
+   
     components: { Footer}
 }  
 </script>

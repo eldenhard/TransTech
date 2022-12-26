@@ -1,5 +1,5 @@
 <template>
-        <footer id="contact">
+        <footer>
             <div class="parent">
             <img src="@/assets/photo.png" alt="" class="footer-logo">
             <p class="safety-inf">© 2017-2022 ООО «Транспортные Технологии». Все права защищены.</p>
@@ -19,7 +19,7 @@ export default{
 <style>
 footer{
     width: 100%;
-    background: black;
+    background: #565656;
 } 
 .footer-logo {
 width: 12%;

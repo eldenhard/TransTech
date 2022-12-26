@@ -9,7 +9,7 @@
         </div>
         <br> 
 
-      <h3 style="font-size: 33px;">Направление деятельности</h3>
+      <h3 style="font-size: 33px;" class="about-page">Направление деятельности</h3>
       <div class="container about-content">
         <p>ООО «Транспортные Технологии» предоставляет полный цикл качественных услуг в области грузовых перевозок.
         Ориентированность на клиента, гибкое реагирование на изменения рынка,
@@ -23,7 +23,7 @@
     <br>
     <div class="row" >
         <div class="col-md-4 mr-0">
-            <img src="../assets/neft1.jpg" alt="" style="width: 250px !important; height: 200px; ">
+            <img src="../assets/neft1.jpg" alt="" style="width: 250px; height: 200px;" class="product-img">
         </div>
         <div class="col-md-8" >
              <div class="grey">
@@ -37,7 +37,7 @@
 
     <div class="row" style="margin-top: 2px">
         <div class="col-md-4 mr-0">
-            <img src="../assets/gaz1.webp" alt="" style="width: 250px !important; height: 200px;">
+            <img src="../assets/gaz1.webp" alt="" style="width: 250px; height: 200px;"  class="product-img">
         </div>
         <div class="col-md-8">
              <div class="grey">
@@ -52,7 +52,7 @@
    
     <div class="row" style="margin-top: 2px">
         <div class="col-md-4 mr-0">
-            <img src="../assets/sip.jpg" alt="" style="width: 250px !important; height: 200px;">
+            <img src="../assets/sip.jpg" alt="" style="width: 250px; height: 200px;"  class="product-img">
         </div>
         <div class="col-md-8" >
              <div class="grey">
@@ -68,9 +68,15 @@
 
 
 <br><br><br>
+<Footer></Footer>
     </div>
 </template>
-
+<script>
+import Footer from '@/components/Footer.vue';
+export default {
+    components: { Footer}
+}  
+</script>
 
 <style>
  .about h3 {
@@ -98,5 +104,25 @@ padding-top: 3%;
     height: 200px;
     padding-right: 2%;
 }
-
+@media screen and (max-width: 500px) {
+.image {
+    display: none;
+}
+.about-page {
+    margin-top: 10%;
+    text-align: center;
+}
+.about-content p {
+    text-align: justify;
+}
+.product-img {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    width: 330px !important;
+}
+.grey, .products-pr {
+    height: 320px !important;
+}
+}
 </style>

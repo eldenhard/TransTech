@@ -6,9 +6,9 @@
       <img src="@/assets/boss.jpg" class="img-fluid" style="box-shadow: 0 0 15px #eee;" alt="">
     </div>
     <div class="col-md-6 pt-3">
-      <small class="text-uppercase" style="color: #EB272B; font-weight: 600;"><span class="pre-ab-com">Перевозка грузов по РФ</span></small>
+      <small class="text-uppercase" style="background: #FF0000; color: white !important; padding: 5px; font-weight: 600;"><span class="pre-ab-com">Перевозка грузов по РФ</span></small>
       <h1 class="h2 mb-4 ab-com" style="font-weight: 700;">О компании</h1>
-      <p class="text-secondary" style=" font-size: 20px; color: black; text-align: justify;">&nbsp;&nbsp;ООО «Транспортные Технологии» (ТТ) – вышло на рынок услуг
+      <p class="text-secondary" style=" font-size: 20px; color: black !important; text-align: justify;">&nbsp;&nbsp;ООО «Транспортные Технологии» (ТТ) – вышло на рынок услуг
          по перевозке грузов железнодорожным транспортом в апреле 2015 года.
           В настоящее время компания продолжает увеличивать своё присутствие на транспортном рынке нефтеналивных и универсальных грузов.
         <br>
