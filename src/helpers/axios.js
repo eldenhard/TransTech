@@ -2,8 +2,8 @@ import Vue from "vue";
 import axios from "axios";
 
 let config = {
-    baseURL: 'http://10.1.5.65/api/'
-    // baseURL: '/api/'
+    // baseURL: 'http://10.1.5.65/api/'
+    baseURL: '/api/'
 
 }
 

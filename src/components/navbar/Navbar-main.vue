@@ -42,7 +42,7 @@ background: tra !important">
        
         <b-nav-item><router-link to="/about" exact class="link">О нас</router-link></b-nav-item>
         <b-nav-item><router-link to="/service" exact class="link">Услуги</router-link></b-nav-item>
-        <b-nav-item><router-link to="/order_create" exact class="link">Управление перевозкой</router-link></b-nav-item>
+        <!-- <b-nav-item><router-link to="/order_create" exact class="link">Управление перевозкой</router-link></b-nav-item> -->
         <b-nav-item><router-link to="/job" exact class="link">Карьера</router-link></b-nav-item>
 
         <b-nav-item href="#"><router-link to="/team" exact class="link">Руководство</router-link></b-nav-item>
