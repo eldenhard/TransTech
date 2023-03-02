@@ -57,7 +57,10 @@
 import Footer from '@/components/Footer.vue';
 import ContactForm from '@/components/ContactForm.vue';
     export default {
-        components: { Footer,ContactForm }
+        components: { Footer,ContactForm },
+        mounted(){
+        window.scrollTo(0, 0);
+    }
     }  
     </script>
 <style>

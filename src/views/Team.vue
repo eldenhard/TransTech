@@ -39,7 +39,7 @@
                     <b-row no-gutters>
                       <b-col md="6">
                         <img
-                          src="../assets/Tert.png"
+                          src="../assets/boss.jpg"
                           class="rounded-0"
                           style="
                             max-width: 100%;
@@ -600,7 +600,121 @@
             </b-card-body>
           </b-collapse>
         </b-card>
+        <b-card no-body class="mb-1">
+          <b-card-header header-tag="header" class="p-1" role="tab">
+            <b-button
+              block
+              v-b-toggle.accordion-9
+              variant="dark"
+              class="description"
+              style="width: 100% !important"
+              >Руководитель финансовой службы</b-button
+            >
+          </b-card-header>
+          <b-collapse id="accordion-9" accordion="my-accordion" role="tabpanel">
+            <b-card-body>
+              <b-card-text>
+                <div>
+                  <b-card
+                    no-body
+                    class="overflow-hidden"
+                    style="
+                      max-width: 80%;
+                      position: relative;
+                      left: 50%;
+                      transform: translate(-50%, 0);
+                      border: none !important;
+                    "
+                  >
+                    <b-row no-gutters>
+                      <b-col md="6">
+                        <img
+                          src="../assets/Orlov.jpg"
+                          class="rounded-0"
+                          style="
+                            max-width: 100%;
+                            position: relative;
+                            left: 50%;
+                            transform: translate(-50%, 0);
+                          "
+                        />
+                      </b-col>
+                      <b-col md="6">
+                        <b-card-body title="ОРЛОВ Виталий Викторович">
+                          <b-card-text>
+                            В 1998 году окончил Московский государственный социальный университет по специальности Финансы и кредит, присвоена квалификация Экономист. <br>
+В 1999 году окончил Московский государственный социальный университет по специальности Юриспруденция, присвоена квалификация Юрист. <br>
+В 2007 году повышение квалификации в НОУ «Институт профессиональных управляющих Аскери» по программе курса АССА «Работа с финансовыми отчетами». <br>
+В 2008 году повышение квалификации в НОУ «Институт профессиональных управляющих Аскери» по программе курса АССА «Управленческий учет» <br>
+<br>
+С 2021 года переведен на должность Руководителя финансовой службы ООО «Транспортные Технологии». <br>
+С 2020 года – начальник отдела по работе с банками Финансовой службы ООО «Транспортные Технологии». <br>
+С 2012-2018гг- заместитель генерального директора по финансам и корпоративной отчетности ООО «РЖД Тур» <br>
+С 2010-2012гг- заместитель начальника центра методологии и нормирования финансово-экономической деятельности ОАО «Федеральная пассажирская компания» <br>
+                          </b-card-text>
+                        </b-card-body>
+                      </b-col>
+                    </b-row>
+                  </b-card>
+                </div>
+              </b-card-text>
+            </b-card-body>
+          </b-collapse>
+        </b-card>
 
+        <b-card no-body class="mb-1">
+          <b-card-header header-tag="header" class="p-1" role="tab">
+            <b-button
+              block
+              v-b-toggle.accordion-10
+              variant="dark"
+              class="description"
+              style="width: 100% !important"
+              >Начальник отдела по работе с персоналом</b-button
+            >
+          </b-card-header>
+          <b-collapse id="accordion-10" accordion="my-accordion" role="tabpanel">
+            <b-card-body>
+              <b-card-text>
+                <div>
+                  <b-card
+                    no-body
+                    class="overflow-hidden"
+                    style="
+                      max-width: 80%;
+                      position: relative;
+                      left: 50%;
+                      transform: translate(-50%, 0);
+                      border: none !important;
+                    "
+                  >
+                    <b-row no-gutters>
+                      <b-col md="6">
+                        <img
+                          src="../assets/Gerasimova.jpg"
+                          class="rounded-0"
+                          style="
+                            max-width: 100%;
+                            position: relative;
+                            left: 50%;
+                            transform: translate(-50%, 0);
+                          "
+                        />
+                      </b-col>
+                      <b-col md="6">
+                        <b-card-body title="ГЕРАСИМОВА Татьяна Васильевна">
+                          <b-card-text>
+                  
+                          </b-card-text>
+                        </b-card-body>
+                      </b-col>
+                    </b-row>
+                  </b-card>
+                </div>
+              </b-card-text>
+            </b-card-body>
+          </b-collapse>
+        </b-card>
 
       </div>
       <ContactForm style="margin-top: 30% !important"/>
@@ -668,6 +782,9 @@ import Footer from "../components/Footer.vue";
 import ContactForm from "@/components/ContactForm.vue";
 export default {
   components: { Footer, ContactForm },
+  mounted(){
+        window.scrollTo(0, 0);
+    }
 };
 </script>
 

@@ -2,8 +2,8 @@
   <div class="home">
     <div class="mainpic">
      
-      <div style="opacity: 1 !important; z-index: 1">
-        <h2 class="header-f" style="margin-top: 5%"><img src="../assets/main-logo.png" alt=""></h2>
+      <div style="opacity: 1 !important; z-index: 1" >
+        <h2 class="header-f" style="margin-top: 5%"><img src="../assets/main-logo.png" alt="" class="logoes"></h2>
           <h1 class="header-s">Грузоперевозки по России</h1>
           <div class="btn-gr">
               <button class="request" to="/order_create" exact>Оставить заявку</button>
@@ -82,7 +82,7 @@ export default {
 
 .mainpic {
   /* background: url(../assets/main-l.png); */
-  background: url(../assets/main-pre.jpg) , rgb(190, 190, 190, 0.1);
+  background: url(../assets/main-pre.jpg) , rgb(190, 190, 190, 0.1) no-repeat;
  
   background-size: 100%;
   overflow: hidden;
@@ -131,7 +131,6 @@ a:hover{
   flex-direction: row;
   justify-content: center;
 }
-
 .request {
   background: #EB272B;
   text-decoration: none;
@@ -148,11 +147,9 @@ a:hover{
   letter-spacing: 1px;
   cursor: pointer;
 }
-
 .request:hover {
   background: #96191b;
 }
-
 .contact {
   /* background: rgb(243, 243, 243, 0.1); */
   background: rgb(190, 190, 190);
@@ -193,7 +190,23 @@ a:hover{
     margin-top: -250px;
 
   }
-
+  .logoes{
+    width: 45%;
+    margin-top: 35%;
+  }
+  .btn-gr{
+    display: flex;
+    flex-direction: column;
+   
+  }
+  .mainpic{
+    background: url(../assets/main-pre.jpg) , rgb(190, 190, 190, 0.1) no-repeat;
+    /* background-size: 100%;
+    overflow: hidden; */
+    /* height: 80vh !important; */
+    /* display: table;
+    width: 100%; */
+  }
   .header-s {
     text-align: center;
     padding-top: 2%;
@@ -205,12 +218,16 @@ a:hover{
   }
 
   .request {
-    display: none;
-  }
+    position: relative;
+    left: 50%; 
+    transform: translate(-50%, 0)  }
 
   .contact {
-    display: none;
-
+    position: relative;
+    left: 50%; 
+    transform: translate(-50%, 0);
+    margin-top: 4%;
+    margin-left: -1px;
   }
 
   .center-phone {

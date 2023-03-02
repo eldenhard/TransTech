@@ -2,7 +2,7 @@
     <div>
         <div class="row mr-0" style="background: #171717" id="contact">
             <div class="col-md-6 mr-0" >
-                <img src="@/assets/map.jpg" alt="" style="width:80%; height: 60%; margin-left: 10%; margin-top: 7%;">
+                <img src="@/assets/map.jpg" alt="" style="width:90%; height: 80%; margin-left: 10%; margin-top: 7%;">>
             </div>
             <div class="col-md-6 mr-0 right-contact" >
                     <h2 style="padding-left: 7%;"><span style="border-bottom: 3px solid #EB272B;">Контакты</span></h2>
