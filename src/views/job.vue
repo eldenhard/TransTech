@@ -48,14 +48,16 @@
 </div>
 
 <br><br><br>
+<ContactForm ></ContactForm>
 <Footer></Footer>
     </div>
 </template>
 
 <script>
 import Footer from '@/components/Footer.vue';
+import ContactForm from '@/components/ContactForm.vue';
     export default {
-        components: { Footer }
+        components: { Footer,ContactForm }
     }  
     </script>
 <style>

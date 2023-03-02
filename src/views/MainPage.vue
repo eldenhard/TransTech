@@ -7,7 +7,11 @@
           <h1 class="header-s">Грузоперевозки по России</h1>
           <div class="btn-gr">
               <button class="request" to="/order_create" exact>Оставить заявку</button>
-              <button class="contact">Контакты</button>
+              <a href="#contact" class="contact" style="  text-decoration: none;
+  outline: none;
+  text-align: center; display: inline-block;
+  vertical-align: middle; padding-top: 18px; color: white">Контакты</a>
+              <!-- <button class="contact" >Контакты</button> -->
           </div>
         </div>
       <!-- <div class="row">
@@ -38,7 +42,7 @@
   <Activities></Activities>
   <br><br>
 
-  <ContactForm></ContactForm>
+  <ContactForm id="contact"></ContactForm>
   <Footer></Footer>
 
   </div>
@@ -98,7 +102,9 @@ export default {
   letter-spacing: 4px;
 
 }
-
+a:hover{
+  color: rgb(145, 145, 145) !important;
+}
 .header-s {
   text-align: center;
   padding-top: 2%;
@@ -165,6 +171,12 @@ export default {
   letter-spacing: 1px;
   margin-left: 1%;
   cursor: pointer;
+}
+.contact a{
+  text-decoration: none;
+  outline: none;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .contact:hover {

@@ -46,8 +46,8 @@ background: tra !important">
         <b-nav-item><router-link to="/job" exact class="link">Карьера</router-link></b-nav-item>
 
         <b-nav-item href="#"><router-link to="/team" exact class="link">Руководство</router-link></b-nav-item>
-        <b-nav-item href=""><router-link to="/#contact" exact class="link">Контакты</router-link></b-nav-item>
-
+        <b-nav-item href="#contact">Контакты</b-nav-item>
+<!-- <router-link to="/#contact" exact class="link">Контакты</router-link> -->
 
       </b-navbar-nav>
     </b-collapse>
