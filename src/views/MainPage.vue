@@ -3,7 +3,7 @@
     <div class="mainpic">
      
       <div style="opacity: 1 !important; z-index: 1" >
-        <h2 class="header-f" style="margin-top: 5%"><img src="../assets/main-logo.png" alt="" class="logoes"></h2>
+        <h2 class="header-f" ><img src="../assets/main-logo.png" alt="" class="logoes"></h2>
           <h1 class="header-s">Грузоперевозки по России</h1>
           <div class="btn-gr">
               <button class="request" to="/order_create" exact>Оставить заявку</button>
@@ -83,12 +83,12 @@ export default {
 .mainpic {
   /* background: url(../assets/main-l.png); */
   background: url(../assets/main-pre.jpg) , rgb(190, 190, 190, 0.1) no-repeat;
- 
+/*  
   background-size: 100%;
   overflow: hidden;
   height: 80vh !important;
   display: table;
-  width: 100%;
+  width: 100%; */
 
 }
 
@@ -183,11 +183,15 @@ a:hover{
 .phone-btn {
   display: none !important;
 }
-
-@media screen and (max-width: 500px) {
+@media screen and (max-width:750px) {
+  .header-f {
+    margin-top: 5%;
+  }
+}
+@media screen and (max-width: 600px) {
   .header-f {
     font-size: 18px;
-    margin-top: -250px;
+    
 
   }
   .logoes{
