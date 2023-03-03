@@ -409,7 +409,7 @@
               variant="dark"
               class="description"
               style="width: 100% !important"
-              >Директор департамента логистики</b-button
+              >Комерческий директор по нефтеналиву</b-button
             >
           </b-card-header>
           <b-collapse id="accordion-7" accordion="my-accordion" role="tabpanel">
