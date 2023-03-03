@@ -70,7 +70,7 @@ export default {
     //   .then(response => {
     //     this.keyFacts = response.data
     //   })
-    document.title = 'Главная'
+    document.title = 'Транспортные технологии'
   },
   methods: {
     SendMess(){

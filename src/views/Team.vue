@@ -37,7 +37,7 @@
                     "
                   >
                   
-                    <b-row no-gutters>
+                    <b-row   no-gutters>
                       <b-col md="2">
                         </b-col>
                       <b-col md="4">
@@ -99,7 +99,7 @@
                       border: none !important;
                     "
                   >
-                    <b-row no-gutters>
+                    <b-row   no-gutters>
                       <b-col md="2">
                         </b-col>
                       <b-col md="4">
@@ -160,7 +160,7 @@
                       border: none !important;
                     "
                   >
-                    <b-row no-gutters>
+                    <b-row   no-gutters>
                       <b-col md="2">
                         </b-col>
                       <b-col md="4">
@@ -221,7 +221,7 @@
                       border: none !important;
                     "
                   >
-                    <b-row no-gutters>
+                    <b-row   no-gutters>
                       <b-col md="2">
                         </b-col>
                       <b-col md="4">
@@ -293,7 +293,7 @@
                       border: none !important;
                     "
                   >
-                    <b-row no-gutters>
+                    <b-row   no-gutters>
                       <b-col md="2">
                         </b-col>
                       <b-col md="4">
@@ -363,7 +363,7 @@
                       border: none !important;
                     "
                   >
-                    <b-row no-gutters>
+                    <b-row   no-gutters>
                       <b-col md="2">
                         </b-col>
                       <b-col md="4">
@@ -427,7 +427,7 @@
                       border: none !important;
                     "
                   >
-                    <b-row no-gutters>
+                    <b-row   no-gutters>
                       <b-col md="2">
                         </b-col>
                       <b-col md="4">
@@ -502,7 +502,7 @@
                       border: none !important;
                     "
                   >
-                    <b-row no-gutters>
+                    <b-row   no-gutters>
                       <b-col md="2">
                         </b-col>
                       <b-col md="4">
@@ -588,7 +588,7 @@
                       border: none !important;
                     "
                   >
-                    <b-row no-gutters>
+                    <b-row   no-gutters>
                       <b-col md="2">
                         </b-col>
                       <b-col md="4">
@@ -647,7 +647,7 @@
                       border: none !important;
                     "
                   >
-                    <b-row no-gutters>
+                    <b-row   no-gutters>
                       <b-col md="2">
                         </b-col>
                       <b-col md="4">
