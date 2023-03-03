@@ -3,12 +3,12 @@
         <div class="container my-5" id="aboutCompany">
   <div class="row">
     <div class="col-md-6 text-center">
-      <img src="@/assets/boss.jpg" class="img-fluid" style="box-shadow: 0 0 15px #eee;" alt="">
+      <img src="@/assets/boss.jpg" class="img-fluid" style="box-shadow: 0 0 15px #eee; max-height: 90%;" alt="">
     </div>
-    <div class="col-md-6 pt-3">
+    <div class="col-md-6 pt-3 text-block">
       <small class="text-uppercase" style="background: #FF0000; color: white !important; padding: 5px; font-weight: 600;"><span class="pre-ab-com">Перевозка грузов по РФ</span></small>
       <h1 class="h2 mb-4 ab-com" style="font-weight: 700;">О компании</h1>
-      <p class="text-secondary" style=" font-size: 20px; color: black !important; text-align: justify;">&nbsp;&nbsp;ООО «Транспортные Технологии» (ТТ) – вышло на рынок услуг
+      <p class="text-secondary" style=" font-size: 20px; color: black !important; text-align: justify; line-height: 30px;">&nbsp;&nbsp;ООО «Транспортные Технологии» (ТТ) – вышло на рынок услуг
          по перевозке грузов железнодорожным транспортом в апреле 2015 года.
           В настоящее время компания продолжает увеличивать своё присутствие на транспортном рынке нефтеналивных и универсальных грузов.
         <br>
@@ -26,12 +26,22 @@
 
 <script>
   export default{
-    name: 'AboutCompany'
+    name: 'AboutCompany',
+    data(){
+      return{
+        height: '',
+      }
+    },
+    mounted(){
+      this.height = document.querySelector('.text-block').offsetHeight
+    }
+
 }
 
 </script>
 
 <style>
+
 @media screen and (max-width: 500px) {
 .ab-com{
   text-align: left ;
