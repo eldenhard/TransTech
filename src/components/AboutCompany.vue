@@ -3,7 +3,7 @@
         <div class="container my-5" id="aboutCompany">
   <div class="row">
     <div class="col-md-6 text-center">
-      <img src="@/assets/boss.jpg" class="img-fluid" style="box-shadow: 0 0 15px #eee; max-height: 90%;" alt="">
+      <img src="@/assets/boss.jpg" class="img-fluid" style="box-shadow: 0 0 15px #eee; max-height: 88%;" alt="">
     </div>
     <div class="col-md-6 pt-3 text-block">
       <small class="text-uppercase" style="background: #FF0000; color: white !important; padding: 5px; font-weight: 600;"><span class="pre-ab-com">Перевозка грузов по РФ</span></small>
