@@ -80,6 +80,8 @@ export default {
     components: { Footer, ContactForm},
     mounted(){
         window.scrollTo(0, 0);
+        document.title = 'Направление деятельности'
+
     }
 }  
 </script>

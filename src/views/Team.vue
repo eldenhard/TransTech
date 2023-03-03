@@ -36,19 +36,15 @@
                       border: none !important;
                     "
                   >
+                  
                     <b-row no-gutters>
-                      <b-col md="6">
+                      <b-col md="2">
+                        </b-col>
+                      <b-col md="4">
                         <img
                           src="../assets/boss.jpg"
                           class="rounded-0"
-                          style="
-                            max-width: 100%;
-                            max-width: 350px;
-                            height: 100%;
-                            position: relative;
-                            left: 50%;
-                            transform: translate(-50%, 0);
-                          "
+                        
                         />
                       </b-col>
                       <b-col md="6">
@@ -104,19 +100,13 @@
                     "
                   >
                     <b-row no-gutters>
-                      <b-col md="6">
+                      <b-col md="2">
+                        </b-col>
+                      <b-col md="4">
                         <img
                           src="../assets/Smirnov.jpg"
                           class="rounded-0"
-                          style="
-                            max-width: 100%;
-                            max-width: 350px;
-                            height: 100%;
-                            height: 100%;
-                            position: relative;
-                            left: 50%;
-                            transform: translate(-50%, 0);
-                          "
+                        
                         />
                       </b-col>
                       <b-col md="6">
@@ -171,17 +161,13 @@
                     "
                   >
                     <b-row no-gutters>
-                      <b-col md="6" style="display: block">
+                      <b-col md="2">
+                        </b-col>
+                      <b-col md="4">
                         <img
                           src="../assets/Titova.jpg"
                           class="rounded-0"
-                          style="
-                            max-width: 100%;
-                            object-fit: cover;
-                            position: relative;
-                            left: 50%;
-                            transform: translate(-50%, 0);
-                          "
+                        
                         />
                       </b-col>
                       <b-col md="6">
@@ -236,20 +222,13 @@
                     "
                   >
                     <b-row no-gutters>
-                      <b-col md="6" style="display: block">
+                      <b-col md="2">
+                        </b-col>
+                      <b-col md="4">
                         <img
                           src="../assets/Sakeev.jpg"
                           class="rounded-0"
-                          style="
-                            max-width: 100%;
-                            width: 350px;
-                            height: 100%;
-                            height: 100%;
-                            object-fit: cover;
-                            position: relative;
-                            left: 50%;
-                            transform: translate(-50%, 0);
-                          "
+                        
                         />
                       </b-col>
                       <b-col md="6">
@@ -315,19 +294,13 @@
                     "
                   >
                     <b-row no-gutters>
-                      <b-col md="6" style="display: block">
+                      <b-col md="2">
+                        </b-col>
+                      <b-col md="4">
                         <img
                           src="../assets/Voluiskiy.jpg"
                           class="rounded-0"
-                          style="
-                            max-width: 100%;
-                            width: 370px;
-                            height: 100%;
-                            object-fit: cover;
-                            position: relative;
-                            left: 50%;
-                            transform: translate(-50%, 0);
-                          "
+                        
                         />
                       </b-col>
                       <b-col md="6">
@@ -391,18 +364,13 @@
                     "
                   >
                     <b-row no-gutters>
-                      <b-col md="6">
+                      <b-col md="2">
+                        </b-col>
+                      <b-col md="4">
                         <img
                           src="../assets/Sharonov.jpg"
                           class="rounded-0"
-                          style="
-                            max-width: 100%;
-                            width: 350px;
-                            height: 100%;
-                            position: relative;
-                            left: 50%;
-                            transform: translate(-50%, 0);
-                          "
+                        
                         />
                       </b-col>
                       <b-col md="6">
@@ -460,16 +428,13 @@
                     "
                   >
                     <b-row no-gutters>
-                      <b-col md="6">
+                      <b-col md="2">
+                        </b-col>
+                      <b-col md="4">
                         <img
                           src="../assets/Klushov.jpg"
                           class="rounded-0"
-                          style="
-                            max-width: 75%;
-                            position: relative;
-                            left: 50%;
-                            transform: translate(-50%, 0);
-                          "
+                        
                         />
                       </b-col>
                       <b-col md="6">
@@ -538,16 +503,13 @@
                     "
                   >
                     <b-row no-gutters>
-                      <b-col md="6">
+                      <b-col md="2">
+                        </b-col>
+                      <b-col md="4">
                         <img
                           src="../assets/Vlasenkov.jpg"
                           class="rounded-0"
-                          style="
-                            max-width: 100%;
-                            position: relative;
-                            left: 50%;
-                            transform: translate(-50%, 0);
-                          "
+                        
                         />
                       </b-col>
                       <b-col md="6">
@@ -627,16 +589,13 @@
                     "
                   >
                     <b-row no-gutters>
-                      <b-col md="6">
+                      <b-col md="2">
+                        </b-col>
+                      <b-col md="4">
                         <img
                           src="../assets/Orlov.jpg"
                           class="rounded-0"
-                          style="
-                            max-width: 100%;
-                            position: relative;
-                            left: 50%;
-                            transform: translate(-50%, 0);
-                          "
+                        
                         />
                       </b-col>
                       <b-col md="6">
@@ -689,16 +648,13 @@
                     "
                   >
                     <b-row no-gutters>
-                      <b-col md="6">
+                      <b-col md="2">
+                        </b-col>
+                      <b-col md="4">
                         <img
                           src="../assets/Gerasimova.jpg"
                           class="rounded-0"
-                          style="
-                            max-width: 100%;
-                            position: relative;
-                            left: 50%;
-                            transform: translate(-50%, 0);
-                          "
+                        
                         />
                       </b-col>
                       <b-col md="6">
@@ -726,6 +682,10 @@
 
 
 <style>
+img{
+  max-height: 350px !important;
+  max-width: 200 !important;
+}
 .card-text p {
   padding-top: 2%;
 }
@@ -763,7 +723,13 @@
   text-align: center;
   padding-top: 2%;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
+  h4{
+    text-align: center;
+  }
+  h2{
+    text-align: center;
+  }
   .team {
     margin-top: 15%;
   }
@@ -773,6 +739,10 @@
   .accordeon-block {
     width: 100%;
   }
+  img{
+  max-height: 350px !important;
+  max-width: 250px !important;
+}
 }
 </style>
 
@@ -784,6 +754,8 @@ export default {
   components: { Footer, ContactForm },
   mounted(){
         window.scrollTo(0, 0);
+      document.title = 'Руководство'
+
     }
 };
 </script>

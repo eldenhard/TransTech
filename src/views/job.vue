@@ -60,6 +60,8 @@ import ContactForm from '@/components/ContactForm.vue';
         components: { Footer,ContactForm },
         mounted(){
         window.scrollTo(0, 0);
+        document.title = 'Карьера'
+
     }
     }  
     </script>
@@ -100,5 +102,10 @@ padding-right: 2%;
 .third-job {
     font-size: 20px;
     font-weight: 400;
+}
+@media screen and (max-width: 600px) {
+    .about-page{
+        text-align: center !important;
+    }
 }
 </style>
