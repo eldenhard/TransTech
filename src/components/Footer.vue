@@ -2,7 +2,7 @@
         <footer>
             <div class="parent">
             <img src="@/assets/photo.png" alt="" class="footer-logo">
-            <p class="safety-inf">© 2017-2022 ООО «Транспортные Технологии». Все права защищены.</p>
+            <p class="safety-inf">© 2017-2023 ООО «Транспортные Технологии». Все права защищены.</p>
             <p class="contact-phone">+7 (495) 363 1520</p>
         </div>
 
