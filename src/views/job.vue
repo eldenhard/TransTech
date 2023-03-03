@@ -53,7 +53,7 @@
     </div>
 </template>
 
-<script>
+<script >
 import Footer from '@/components/Footer.vue';
 import ContactForm from '@/components/ContactForm.vue';
     export default {

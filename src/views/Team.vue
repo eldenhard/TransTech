@@ -681,7 +681,7 @@
 
 
 
-<style>
+<style scoped>
 img{
   max-height: 350px !important;
   max-width: 200 !important;

@@ -104,7 +104,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Raleway:wght@200;300&family=Roboto:wght@300;900&display=swap');
 label{
   color:grey;
