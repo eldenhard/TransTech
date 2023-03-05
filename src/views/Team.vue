@@ -716,11 +716,8 @@
                       <b-col md="1">
                         </b-col>
                       <b-col md="4">
-                        <img
-                          src="../assets/Gorin.jpg"
-                          class="rounded-0"
-                        
-                        />
+                        <img src="../assets/Gorin.jpg"
+                          class="rounded-0"/>
                       </b-col>
                       <b-col md="7">
                         <b-card-body title="ГОРИН Василий Александрович">
