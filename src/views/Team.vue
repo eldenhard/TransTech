@@ -409,7 +409,7 @@
               variant="dark"
               class="description"
               style="width: 100% !important"
-              >Комерческий директор по нефтеналиву</b-button
+              >Коммерческий директор по нефтеналиву</b-button
             >
           </b-card-header>
           <b-collapse id="accordion-7" accordion="my-accordion" role="tabpanel">
@@ -484,7 +484,7 @@
               variant="dark"
               class="description"
               style="width: 100% !important"
-              >Начальника отдела логистики и внутреннего контроля</b-button
+              >Начальник отдела логистики и внутреннего контроля</b-button
             >
           </b-card-header>
           <b-collapse id="accordion-8" accordion="my-accordion" role="tabpanel">
