@@ -6,19 +6,15 @@
     <template #modal-title>
         Оценка условий труда
     </template>
-    <div class="d-block text-center fsize">
-          
-        <b-carousel
+ <div>
+   <b-carousel
       id="mainCarousel"
+      :interval="400000000000000"
       v-model="slide"
-      :interval="7000"
       controls
       indicators
-      style="background: grey;"
       @sliding-start="onSlideStart"
-      @sliding-end="onSlideEnd"
-    >
-      <!-- Text slides with image -->
+      @sliding-end="onSlideEnd">
       <b-carousel-slide>
         <template #img>
             <div class="item-photo">
@@ -32,7 +28,6 @@
         </template>
       </b-carousel-slide>
 
-      <!-- Slides with custom text -->
       <b-carousel-slide>
         <template #img>
             <div class="item-photo">
@@ -45,7 +40,6 @@
         </template>
       </b-carousel-slide>
 
-      <!-- Slides with image only -->
       <b-carousel-slide>
         <template #img>
             <div class="item-photo">
@@ -58,8 +52,6 @@
         </template>
       </b-carousel-slide>
 
-      <!-- Slides with img slot -->
-      <!-- Note the classes .d-block and .img-fluid to prevent browser default image alignment -->
       <b-carousel-slide>
         <template #img>
             <div class="item-photo">
@@ -95,7 +87,7 @@
       </b-carousel-slide>
 
     </b-carousel>
-    </div>
+    </div> 
     <b-button class="mt-3" block @click="$bvModal.hide('bv-modal-example')" style="background: #EB272B; border: none;">Закрыть</b-button>
   </b-modal>
 
@@ -122,9 +114,10 @@ export default{
     data() {
       return {
         slide: 0,
-        sliding: null
+        // sliding: null
       }
     },
+
     methods: {
       onSlideStart(slide) {
         this.sliding = true
@@ -138,6 +131,19 @@ export default{
 </script>
 
 <style scoped>
+
+a.carousel-control-next {
+  background: black !important;
+}
+.mainCarousel___BV_indicators_{
+    color: black !important;
+    background: black !important;
+}
+.carousel-indicators > li {
+  background-color: black;
+}
+
+
 .fsize{
     min-height: 80vh !important;
      max-height: 80vh !important;
@@ -178,7 +184,13 @@ margin-bottom: 1%;
     outline: none !important;
     border-bottom: none !important;
 }
+#show-btn{
+    position: relative !important;
+    left:50% !important;
+    transform: translate(-50%,0) !important;
+    text-align: center !important;
 
+}
 @media screen and (max-width: 700px) {
 .footer-logo {
     /* width: 50%; */
