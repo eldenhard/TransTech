@@ -82,7 +82,8 @@ export default{
       },
       onSlideEnd(slide) {
         this.sliding = false
-      }
+      },
+     
     }
   }
 
