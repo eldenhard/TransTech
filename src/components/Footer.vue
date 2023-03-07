@@ -6,88 +6,46 @@
     <template #modal-title>
         Оценка условий труда
     </template>
- <div>
-   <b-carousel
-      id="mainCarousel"
-      :interval="400000000000000"
-      v-model="slide"
-      controls
-      indicators
-      @sliding-start="onSlideStart"
-      @sliding-end="onSlideEnd">
-      <b-carousel-slide>
-        <template #img>
-            <div class="item-photo">
-                <img
-                    class="d-block img-fluid w-100"
-                    src="../assets/1.jpg"
-                    alt="image slot"
-                >
-            </div>
+    <div id="carouselExampleIndicators" class="carousel slide fsize" data-ride="carousel" >
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
 
-        </template>
-      </b-carousel-slide>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="../assets/1.jpg">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="../assets/2.jpg">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="../assets/3.jpg">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="../assets/4.jpg">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="../assets/5.jpg">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="../assets/6.jpg">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
 
-      <b-carousel-slide>
-        <template #img>
-            <div class="item-photo">
-                    <img
-                        class="d-block img-fluid w-100"
-                        src="../assets/2.jpg"
-                        alt="image slot"
-                    >
-        </div>
-        </template>
-      </b-carousel-slide>
-
-      <b-carousel-slide>
-        <template #img>
-            <div class="item-photo">
-                    <img
-                        class="d-block img-fluid w-100"
-                        src="../assets/3.jpg"
-                        alt="image slot"
-                    >
-        </div>
-        </template>
-      </b-carousel-slide>
-
-      <b-carousel-slide>
-        <template #img>
-            <div class="item-photo">
-                    <img
-                        class="d-block img-fluid w-100"
-                        src="../assets/4.jpg"
-                        alt="image slot"
-                    >
-        </div>
-        </template>
-      </b-carousel-slide>
-      <b-carousel-slide>
-        <template #img>
-            <div class="item-photo">
-                    <img
-                        class="d-block img-fluid w-100"
-                        src="../assets/5.jpg"
-                        alt="image slot"
-                    >
-        </div>
-        </template>
-      </b-carousel-slide>
-      <b-carousel-slide>
-        <template #img>
-            <div class="item-photo">
-                    <img
-                        class="d-block img-fluid w-100"
-                        src="../assets/6.jpg"
-                        alt="image slot"
-                    >
-        </div>
-        </template>
-      </b-carousel-slide>
-
-    </b-carousel>
-    </div> 
     <b-button class="mt-3" block @click="$bvModal.hide('bv-modal-example')" style="background: #EB272B; border: none;">Закрыть</b-button>
   </b-modal>
 
@@ -132,17 +90,18 @@ export default{
 
 <style scoped>
 
-a.carousel-control-next {
-  background: black !important;
+.carousel-control-next{
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  width: 7% !important;
 }
-.mainCarousel___BV_indicators_{
-    color: black !important;
-    background: black !important;
+.carousel-control-prev{
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  width: 7% !important;
+
 }
 .carousel-indicators > li {
-  background-color: black;
+  background-color: rgb(83, 83, 83);
 }
-
 
 .fsize{
     min-height: 80vh !important;
