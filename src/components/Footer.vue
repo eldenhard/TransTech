@@ -157,6 +157,19 @@ margin-bottom: 1%;
     /* height: 10%; */
     display: none;
 }
+.fsize{
+    min-height: 25vh !important;
+     max-height: 25vh !important;
+}
+.carousel-control-next{
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  width: 10% !important;
+}
+.carousel-control-prev{
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  width: 10% !important;
+
+}
 .item-photo img{
     filter: brightness(90%);
     /* height: 100%;
