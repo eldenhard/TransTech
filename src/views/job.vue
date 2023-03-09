@@ -4,7 +4,7 @@
     
         <div class="image">
             <!-- <img src="../assets/pict.jpg" style="    filter: brightness(60%); position: relative;width: 100%;"> -->
-            <img src="../assets/main-pre.jpg" style="    filter: brightness(60%); position: relative;width: 100%; height: 300px">
+            <img src="../assets/main-pre.jpg" style="    filter: brightness(60%); position: relative;width: 100%; height: 350px">
 
             <h2 style=" position: absolute;top: 100px;left: 0;width: 100%;color: rgb(214, 214, 214);font-size: 50px !important;padding: 10px;text-align: right;padding-right: 10%;">Железнодорожные перевозки</h2>
             <p style=" position: absolute;top: 150px;left: 0;width: 100%;color: rgb(214, 214, 214);font-size: 17px !important;padding: 10px;text-align: right;padding-right: 10%;">В любую точку России</p>
