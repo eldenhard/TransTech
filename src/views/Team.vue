@@ -763,7 +763,7 @@
         </b-card>
 
       </div>
-      <ContactForm style="margin-top: 30% !important"/>
+      <ContactForm style="margin-top: 5% !important"/>
       <Footer></Footer>
     </div>
   </div>

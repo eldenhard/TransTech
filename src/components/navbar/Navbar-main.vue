@@ -46,7 +46,7 @@ background: tra !important">
         <b-nav-item><router-link to="/job" exact class="link">Карьера</router-link></b-nav-item>
 
         <b-nav-item href="#"><router-link to="/team" exact class="link">Руководство</router-link></b-nav-item>
-        <b-nav-item href="" @click="getContacts()">Контакты</b-nav-item>
+        <b-nav-item href="#"><a @click="getContacts()" class="link" style=" color: white;">Контакты</a></b-nav-item>
 <!-- <router-link to="/#contact" exact class="link">Контакты</router-link> -->
 
       </b-navbar-nav>
@@ -58,7 +58,7 @@ background: tra !important">
 
 
 
-<style>
+<style scoped>
   a.router-link-active, li.router-link-active>a {
     color: rgb(185, 185, 185);
 }
@@ -76,7 +76,7 @@ background: tra !important">
      text-decoration: none
   }
   .link:hover{
-    color: black !important;
+    color: rgb(194, 194, 194) !important;
     text-decoration: none;
     /* color: rgb(86, 86, 86); */
   }
