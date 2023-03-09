@@ -12,11 +12,11 @@
       <figcaption >
         <span class="activities-main-decription">Нефтепродукты</span> 
         <br><br>
-        <span class="activities-decription">Предоставляем цистерны для перевозки грузов по территории России, Украины, Белоруссии, стран СНГ и Балтии.</span>
+        <span class="activities-decription">Предоставляем цистерны для перевозки грузов по территории России, Белоруссии, стран СНГ и Балтии.</span>
       </figcaption>
     </figure>
     <figure class="item r-span2">
-      <img src="@/assets/wood.jpg" alt="" class="activities-gallery">
+      <img src="@/assets/123.png" alt="" class="activities-gallery">
       <figcaption>
         <span class="activities-main-decription">Лес</span>
         <br><br>
@@ -43,7 +43,7 @@
       <img src="@/assets/i.jpg" alt="" class="activities-gallery">
       <figcaption>
         <span class="activities-main-decription">Сыпучие грузы</span> <br> <br>
-        <span class="activities-decription">Предоставляем полувагоны для перевозки сыпучих грузов по территории России, Украины, Белоруссии, СНГ и Балтии.</span>
+        <span class="activities-decription">Предоставляем полувагоны для перевозки сыпучих грузов по территории России,   Белоруссии, СНГ и Балтии.</span>
       </figcaption>
     </figure>
     <figure class="item">
@@ -67,7 +67,7 @@
       <figcaption>
         <!-- <span class="activities-main-decription">Нефтепродукты</span>  -->
         <br><br>
-        <span class="activities-decription">Предоставляем цистерны для перевозки грузов по территории России, Украины, Белоруссии, стран СНГ и Балтии.</span>
+        <span class="activities-decription">Предоставляем цистерны для перевозки грузов по территории России,   Белоруссии, стран СНГ и Балтии.</span>
       </figcaption>
     </figure>
     </div>
@@ -77,7 +77,7 @@
   <div class="row sec-phone">
     <div class="col-md-12">
       <figure>
-      <img src="@/assets/forest.jpg" alt="" width="100%" height="200px">
+      <img src="@/assets/log.png" alt="" width="100%" height="200px">
       <figcaption>
         <!-- <span class="activities-main-decription">Лес</span> -->
         <br><br>
@@ -119,7 +119,7 @@
       <img src="@/assets/i.jpg" alt="" width="100%" height="200px">
       <figcaption>
         <!-- <span class="activities-main-decription">Сыпучие грузы</span> <br> <br> -->
-        <span class="activities-decription">Предоставляем полувагоны для перевозки сыпучих грузов по территории России, Украины, Белоруссии, СНГ и Балтии.</span>
+        <span class="activities-decription">Предоставляем полувагоны для перевозки сыпучих грузов по территории России,   Белоруссии, СНГ и Балтии.</span>
       </figcaption>
     </figure>    </div>
   </div>
