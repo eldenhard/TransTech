@@ -16,6 +16,7 @@
 
     </div>
     <AboutCompany></AboutCompany>
+    <News />
     <WhatUs></WhatUs>
     <Activities></Activities>
     <br><br>
@@ -50,6 +51,7 @@ import WhatUs from '@/components/WhatUs.vue';
 import Activities from '@/components/Activities.vue';
 import ContactForm from '@/components/ContactForm.vue';
 import Footer from '@/components/Footer.vue';
+import News from '@/components/News.vue'
 import api from '@/api/keyFacts'
 
 import Notification from '../components/Notifications/Notification.vue';
@@ -64,7 +66,7 @@ export default {
       text: '',
     }
   },
-  components: { AboutCompany, WhatUs, Activities, ContactForm, Footer, Notification },
+  components: { AboutCompany, WhatUs, Activities, ContactForm, Footer, Notification,News },
   mounted() {
     // api.getKeyFacts()
     //   .then(response => {
