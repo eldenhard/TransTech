@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div style="display: none;">
         <div class="prevue">
             <h4>Новости железнодорожного транспорта</h4>
         </div>
@@ -156,7 +156,21 @@
     }
 
 }
+@media screen and (max-width: 600px){
+    .news{
+ width:95%
+    }
+    .news__content{
+    height: 270px;
+    width: 100%;
+    margin-bottom: 5%;
+    position: relative;
+    border-radius: 4px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    cursor: pointer;
 
+}
+}
 </style>
 
 <script>
