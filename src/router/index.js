@@ -2,9 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import MainPage from '../views/MainPage.vue'
 import Dislocation from '../views/Dislocation.vue'
-import Transp from '../views/Transp.vue'
 import team from '../views/Team.vue'
-import order_create from '../views/order_create.vue'
 import about from '../views/about.vue'
 import service from '../views/service.vue'
 import job from '../views/job.vue'
@@ -27,20 +25,10 @@ const routes = [
     component: Dislocation
   },
   {
-    path: '/transp',
-    name: 'Transp',
-    component:Transp
-  },
-  {
     path: '/team',
     name: 'team',
     component:team
   },
-  {
-  path: '/order_create',
-  name: 'order_create',
-  component: order_create
-    },
   {
   path: '/about',
   name: 'about',
