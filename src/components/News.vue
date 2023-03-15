@@ -1,5 +1,5 @@
 <template>
-    <div style="display: none;">
+    <div>
         <div class="prevue">
             <h4>Новости железнодорожного транспорта</h4>
         </div>
