@@ -747,7 +747,10 @@
 
 
 <style scoped>
-
+img{
+  width: 100%;
+  height: auto;
+}
 .card-text p {
   padding-top: 2%;
 }
