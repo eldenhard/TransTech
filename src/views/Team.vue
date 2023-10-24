@@ -744,8 +744,6 @@
   </div>
 </template>
 
-
-
 <style scoped>
 img{
   width: 100%;
@@ -816,7 +814,6 @@ img{
 }
 }
 </style>
-
 
 <script>
 import Footer from "../components/Footer.vue";
