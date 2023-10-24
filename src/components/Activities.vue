@@ -23,7 +23,7 @@
         <span class="activities-decription">Железнодорожные перевозки леса — кругляка и пиломатериалов.</span>
       </figcaption>
     </figure>
-    <figure class="item" style="grid-row: span 2;">
+    <figure class="item" style="grid-row: span 3;">
       <img src="@/assets/truba.jpg" alt="" class="activities-gallery" >
       <figcaption>
         <span class="activities-main-decription">Металл</span>
@@ -31,14 +31,14 @@
         <span class="activities-decription">Перевозка металлолома, листов, металлопроката и металлопродукции.</span>
       </figcaption>
     </figure>
-    <figure class="item">
+    <!-- <figure class="item">
       <img src="@/assets/gas.jpg" alt="" class="activities-gallery">
       <figcaption>
         <span class="activities-main-decription">Газ</span>
         <br><br>
         <span class="activities-decription">Применяются специализированные железнодорожные цистерны для перевозки сжиженных газов объемом 98 м3.</span>
       </figcaption>
-    </figure>
+    </figure> -->
     <figure class="item">
       <img src="@/assets/i.jpg" alt="" class="activities-gallery">
       <figcaption>

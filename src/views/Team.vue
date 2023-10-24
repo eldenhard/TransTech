@@ -56,10 +56,10 @@
         <!-- 1-ый зам -->
         <b-card no-body class="mb-1">
           <b-card-header header-tag="header" class="p-1" role="tab">
-            <b-button block v-b-toggle.accordion-1 variant="dark" class="description"
+            <b-button block v-b-toggle.accordion-1123 variant="dark" class="description"
               style="width: 100% !important">Первый заместитель генерального директора</b-button>
           </b-card-header>
-          <b-collapse id="accordion-1" visible accordion="my-accordion" role="tabpanel">
+          <b-collapse id="accordion-1123" visible accordion="my-accordion" role="tabpanel">
             <b-card-body>
               <b-card-text>
                 <div>
