@@ -82,6 +82,9 @@ export default {
 <style scoped>
 
 .grid-container{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
     display: grid;
     gap: 1%;
     grid-template-columns: 1fr 1fr 1fr 1fr;
