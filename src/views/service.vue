@@ -16,58 +16,49 @@
               освоение новых видов деятельности позволяет компании выходить на лидирующие позиции в своей отрасли. <br><br>
             В области железнодорожных перевозок ООО «Транспортные Технологии» оказывает следующие виды услуг:</p>
       </div>
-      <br>
 
-<div class="container" style="width: 80%">
-<div class="row ">
-    <div class="col-md-3 p-10 services">
+
+<div class="grid-container container">
+    <div class="grid_block">
         <img src="../assets/train-1.jpg" class="service" alt="">
-        <p class="centre">Выбор рационального маршрута транспортировки и подбор подвижного состава</p>
+        <p class="text-overlay">Выбор рационального маршрута транспортировки и подбор подвижного состава</p>
     </div>
-    <div class="col-md-3 services">
+    <div class="grid_block">
         <img src="../assets/train-2.jpg" class="service" alt="">
-        <p class="centre">Расчет стоимости перевозок</p>
+        <p class="text-overlay">Расчет стоимости перевозки грузов</p>
 
     </div>
-    <div class="col-md-3 services ">
+    <div class="grid_block">
         <img src="../assets/train-3.jpg" class="service" alt="">
-        <p class="centre">Предоставление вагонов под погрузку</p>
+        <p class="text-overlay">Предоставление вагонов под погрузку</p>
 
     </div>
-    <div class="col-md-3 services ">
+    <div class="grid_block">
         <img src="../assets/train-4.jpg" class="service" alt="">
-        <p class="centre">Предоставление в аренду собственного подвижного состава</p>
-
+        <p class="text-overlay">Предоставление в аренду собственного подвижного состава</p>
     </div>
-
-</div>
-<div class="row" >
-    <div class="col-md-3  services">
+    <div class="grid_block">
         <img src="../assets/const-3.jpg" class="service" alt="">
-        <p class="centre">Оперирование подвижным составом</p>
+        <p class="text-overlay">Оперирование подвижным составом</p>
 
     </div>
-    <div class="col-md-3 services">
+    <div class="grid_block">
         <img src="../assets/train-5.jpg" class="service" alt="">
-        <p class="centre">Выполнение перевозок повышенной сложности (перевозка тяжелых и негабаритных грузов)</p>
+        <p class="text-overlay">Выполнение перевозок повышенной сложности (перевозка тяжелых и негабаритных грузов)</p>
 
     </div>
-    <div class="col-md-3 services">
+    <div class="grid_block">
         <img src="../assets/consl-1.jpg" class="service" alt="">
-        <p class="centre">Ежедневный мониторинг, слежение за грузом и подвижным составом</p>
+        <p class="text-overlay">Ежедневный мониторинг, слежение за грузом и подвижным составом</p>
 
     </div>
-    <div class="col-md-3 services">
+    <div class="grid_block">
         <img src="../assets/consl-2.jpg" class="service" alt="">
-        <p class="centre">Консультации в организации перевозок</p>
+        <p class="text-overlay">Консультации в организации перевозок</p>
 
     </div>
 
 </div>
-</div>
-
-
-
 
 <br><br><br>
 <ContactForm/>
@@ -88,19 +79,68 @@ export default {
 }
 </script>
 
-<style>
- .service {
-    width: 300px;
-    height: 250px;
-    filter: brightness(45%);
-    
- }  
+<style scoped>
+
+.grid-container{
+    display: grid;
+    gap: 1%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+
+    box-sizing: border-box;
+    width: 100%;
+}
+.grid_block {
+  position: relative;
+  margin-top: 2%;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow: hidden; /* Скрытие возможного переполнения текста */
+}
+
+.grid_block img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.grid_block::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Затемненный фон */
+  z-index: 1; /* Поместите фон под текст */
+}
+
+.grid_block .text-overlay {
+  position: absolute;
+  bottom: 0; /* Размещаем текст внизу */
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  z-index: 2;
+  width: 100%;
+  padding: 10px; /* Добавляем отступы по бокам */
+  box-sizing: border-box;
+}
+
  .services {
     position: relative;
     text-align: center;
     color: white;
-    border: 2px solid white;
+    display: flex;
  } 
+ .services p{
+    display: flex;
+    align-items: end;
+
+ }
  .centre {
     width: 80%;
     position: absolute;
@@ -135,5 +175,13 @@ padding-top: 3%;
     height: 200px;
     padding-right: 2%;
 }
+@media (max-width: 740px) {
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
 
+  .grid_block {
+    margin-bottom: 20px; /* Добавляем отступ между блоками */
+  }
+}
 </style>
