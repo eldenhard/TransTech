@@ -181,7 +181,7 @@ padding-top: 3%;
 @media (max-width: 740px) {
   .grid-container {
     grid-template-columns: repeat(1, 1fr);
-    margin-bottom: 8%;
+    margin-bottom: 15%;
   }
 
   .grid_block {
