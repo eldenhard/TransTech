@@ -54,7 +54,7 @@
             <div class="parent">
             <img src="@/assets/photo.png" alt="" class="footer-logo">
             <div>
-                <p class="safety-inf">© 2017-2023 ООО «Транспортные Технологии». Все права защищены. <br>
+                <p class="safety-inf">© 2017-{{ new Date().getFullYear() }} ООО «Транспортные Технологии». Все права защищены. <br>
                     <button id="show-btn" @click="$bvModal.show('bv-modal-example')" style="padding: 0; font-size: 12px; background: transparent; border: none;  color: white;">Документы об оценке условий труда </button>
 
                 </p>
