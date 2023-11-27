@@ -99,19 +99,7 @@
     </figure>
     </div>
   </div>
-  <br>
-  <div class="row sec-phone">
-    <div class="col-md-12">
-      <figure>
-        <img src="@/assets/gas.jpg" alt="" width="100%" height="200px">
-      <figcaption>
-        <!-- <span class="activities-main-decription">Газ</span> -->
-        <br><br>
-        <span class="activities-decription">Применяются специализированные железнодорожные цистерны для перевозки сжиженных газов объемом 98 м3.</span>
-      </figcaption>
-    </figure> 
-     </div>
-  </div>
+
   <br>
   <div class="row sec-phone">
     <div class="col-md-12">
@@ -252,23 +240,25 @@ figcaption{
     display: none;
   }
 .sec-phone{
+
+  margin: 0 auto;
+
     max-width: 100%;
     display: block !important;
   }
 .sec-phone img {
-margin-left: 3%;
+margin-left: 4%;
+filter: brightness(40%);
   }
   .activities-decription  {
-  padding-top: 2%;
+  margin: 2% 0 0 2%;
   text-align: center;
   font-family: 'Roboto', Arial, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
 }
-.sec-phone img  {
-  filter: brightness(40%);
-}
+
 figcaption{
   background: transparent;
 }
