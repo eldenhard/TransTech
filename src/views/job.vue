@@ -27,7 +27,21 @@
       </div>
       <br>
 
-<div class="container">
+<div class="container_grid">
+    <div class="first_block">
+        <img src="../assets/job-1.jpg" alt="" class="service product-img">
+        <p   style="font-size: 17px; font-weight: 500; text-align: center; padding-right: 20px;">Стабильная компания</p>
+    </div>
+    <div class="first_block">
+        <img src="../assets/job-2.jpg" alt="" class="service product-img">
+        <p  style="font-size: 17px; font-weight: 500; text-align: center; padding-right: 20px;">Карьерный рост</p>
+    </div>
+    <div class="first_block">
+        <img src="../assets/job3.jpg" alt="" class="service product-img">
+        <p  style="font-size: 17px; font-weight: 500; text-align: center; padding-right: 20px;">Инновационные технологии</p>
+    </div>
+</div>
+<!-- <div class="container">
     <div class="row" style="margin-left: 1%">
         <div class="col-md-4">
             <img src="../assets/job-1.jpg" alt="" class="service product-img">
@@ -45,10 +59,11 @@
         </div>
 
     </div>
-</div>
+</div> -->
 
 <br><br><br>
 <ContactForm ></ContactForm>
+<br><br><br><br><br><br><br>
 <Footer></Footer>
     </div>
 </template>
@@ -65,7 +80,30 @@ import ContactForm from '@/components/ContactForm.vue';
     }
     }  
     </script>
-<style>
+<style scoped>
+.container_grid{
+    margin: 0 auto;
+    max-width: 80%;
+    display: grid;
+    gap: 25px;
+    grid-template-areas: 
+        'first second third';
+
+    /* grid-template-columns: repeat(3, 1fr); */
+}
+img{
+    max-width: 100%;
+    height: 100%;
+}
+.first_block:nth-child(1){
+    grid-area: first;
+}
+.first_block:nth-child(2){
+    grid-area: second;
+}
+.first_block:nth-child(3){
+    grid-area: third;
+}
  .about h3 {
 color: #EB272B;
 padding-left: 5%;
@@ -103,9 +141,16 @@ padding-right: 2%;
     font-size: 20px;
     font-weight: 400;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 920px) {
     .about-page{
         text-align: center !important;
+    }
+    .container_grid{
+        gap: 35px;
+        grid-template-areas: 
+        'first'
+        'second'
+        'third';
     }
 }
 </style>

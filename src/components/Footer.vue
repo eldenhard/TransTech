@@ -90,7 +90,10 @@ export default{
 </script>
 
 <style scoped>
-
+img{
+  max-width: 100%;
+  height: auto;
+}
 .carousel-control-next{
   background-color: rgba(0, 0, 0, 0.4) !important;
   width: 7% !important;
