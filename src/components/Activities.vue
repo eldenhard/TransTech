@@ -247,7 +247,7 @@ figcaption{
     display: block !important;
   }
 .sec-phone img {
-margin-left: 2%;
+
 filter: brightness(40%);
   }
   .activities-decription  {
